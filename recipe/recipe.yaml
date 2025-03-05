@@ -1,6 +1,6 @@
 context:
   name: somacore
-  version: 1.0.26
+  version: 1.0.28
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/somacore-${{ version }}.tar.gz
-  sha256: 25d522ec93116e34d5389a2828c2547a3e25fd6e301e1b96705f885a27cdebc0
+  sha256: ae58dc26ca93b4e1537d420dc7a868e172d13177fa1afdf3e55aec49b12edd3d
 
 build:
   number: 0
