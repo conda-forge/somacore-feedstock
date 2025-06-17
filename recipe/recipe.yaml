@@ -52,6 +52,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - jp-dark
     - johnkerl
     - jdblischak
     - hadim
